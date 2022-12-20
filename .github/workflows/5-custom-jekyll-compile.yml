@@ -20,4 +20,4 @@ jobs:
         with:                                # Some relative inputs of your action
           target_branch: 'gh-pages'
         env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
