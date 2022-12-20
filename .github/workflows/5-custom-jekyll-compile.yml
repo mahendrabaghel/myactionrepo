@@ -20,4 +20,4 @@ jobs:
         with:                                # Some relative inputs of your action
           target_branch: 'github-pages'
         env:
-          JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
